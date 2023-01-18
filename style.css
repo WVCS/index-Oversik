@@ -1,3 +1,21 @@
-body {
+h1 {
+  text-align: center;
+  color: yellow;
+  font-style: italic;
+  text-shadow: 2px 2px red;
+  letter-spacing: -2px;
 
+}
+body {
+  background-color: #8DE4FF;
+} 
+
+body:hover {
+  background-color: #90FFDC; 
+  
+}
+img:hover {
+  border: black dotted 3px;
+  height: 350px; 
+  border-radius: 60%;
 }
