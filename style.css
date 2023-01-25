@@ -9,17 +9,21 @@ nav {
   top: 0;
   margin: 0;
 }
+body{
+  background-color: #80FFE8;
+}
 .SI{
   display: inline;
   float: right;
   padding: 12px;
-  font-size: 20px; 
 }
-.SI a{
+a{
   text-decoration: none; 
   color: #FFFFFF;
 }
 .SI:hover{
   background-color: #F25757;
-  list-style-position: inside; 
+}
+.SI{
+  font-size: 20px; 
 }
