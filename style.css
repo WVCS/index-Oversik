@@ -9,23 +9,17 @@ nav {
   top: 0;
   margin: 0;
 }
-}
-body{
-  background-color: #80FFE8;
-}
-
-li {
+.SI{
   display: inline;
   float: right;
   padding: 12px;
+  font-size: 20px; 
 }
-a{
+.SI a{
   text-decoration: none; 
   color: #FFFFFF;
 }
-li:hover{
+.SI:hover{
   background-color: #F25757;
-}
-li{
-  font-size: 20px; 
+  list-style-position: inside; 
 }
