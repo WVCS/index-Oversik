@@ -1,33 +1,14 @@
-h1 {
-  text-align: center;
-  color: yellow;
-  font-style: italic;
-  letter-spacing: -2px; 
-  text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
-}
-body:hover {
-  background-color: #90FFDC; 
-  
-}
-img:hover {
-  border: black dotted 3px;
-  height: 350px; 
-  border-radius: 60%;
-}
-
- h1 {
-  text-align: center;
-  color: yellow;
-  font-style: italic;
-  letter-spacing: -2px; 
-  text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
-
- 
- nav {
+nav {
   list-style-type: none; 
   position: fixed; 
   width: 100%;
   background-color: #F7CB15; 
+  overflow: hidden;
+  position: fixed;
+  left: 0;
+  top: 0;
+  margin: 0;
+}
 }
 body{
   background-color: #80FFE8;
