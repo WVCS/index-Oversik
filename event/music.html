@@ -4,6 +4,8 @@
     <title>Music Event </title> 
     <link rel="icon" href="foto.jpg">
    <link rel="stylesheet" type="text/css" href="" >
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
    
   </head> 
    <body>  
@@ -71,5 +73,18 @@
     body {
   background-image: url(http://media.tumblr.com/ebf25328529ad7223acf64d299abce76/tumblr_inline_mw5iqkPFmO1qz62bd.gif)
 }
-    
+@media only screen and (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+  }
+  body {
+    background-color: violet;
+  }
+  .first {
+    border: solid 25px;
+  }
+  .sec {
+    font-size: 50px;
+  }
+}    
    </style> 
